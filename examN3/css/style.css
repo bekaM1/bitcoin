@@ -1,0 +1,220 @@
+.body{
+    background-image: url(../img/Login.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+.form-js{
+    display: flex;
+    flex-direction: column;
+}
+.registration{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.registration-img{
+    width: 300px !important;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.input-username{
+    margin: 0 auto;
+    background-image: url(../img/user.png);
+    background-position: left center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 1px solid #fff !important;
+    border-radius: 5px;
+    padding-left: 25px;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.input-username::placeholder{
+    color: #fff;
+}
+.input-password{
+    margin: 0 auto;
+    background-image: url(../img/lock.png);
+    padding-left: 25px;
+    color: #fff;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 1px solid #fff !important;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+}
+.input-password::placeholder{
+    color: #fff;
+}
+.btn-light{
+    margin: 0 auto;
+    width:300px;
+    margin-top: 50px;
+}
+.error-code{
+    display: flex;
+    margin-left: 52%;
+    margin-top: 30px;
+}
+.search-box {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    overflow: hidden; 
+    width: 450px;
+}
+
+.search-input {
+    border: none; 
+    padding: 10px; 
+    flex-grow: 1;
+}
+
+.search-button {
+    background-color: #eee; 
+    border: none; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+}
+
+.search-button:hover {
+    background-color: #ddd;
+}
+
+.search-input:focus {
+    outline: none;
+}
+.dark-mode{
+    display: flex;
+    justify-content: space-around;
+}
+.btn
+.back-img-tune {
+    background-image: url('../img/Group\ 182.png');
+    background-size: cover;
+}
+
+.search-input::placeholder {
+    color: #aaa;
+}
+nav{
+    display: flex !important;
+    width: 100%;
+}
+.main{
+    margin-top: 50px;
+}
+.logo-img{
+    width: 200px;
+    height: 40px;
+}
+.navbar-nav{
+    display: flex !important;
+   
+    width: 100%;
+}
+.tune-js{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+.btn-primary{
+    width: 90px;
+}
+.js-title{
+    font-size: 19px;
+    width: 100%;
+    height: 50px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: transparent !important;
+    color: #050505;
+}
+#books-container{
+    display: flex;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+}
+.card-header{
+    width: 150px;
+    height: 200px;
+}
+.writerName{
+     width: 100%;
+    font-size: 13px;
+}
+.btn-info{
+    margin-left: 10px;
+}
+.d-grid {
+    display: grid !important;
+    place-items: center !important; /* This is shorthand for align-items and justify-items */
+}
+.light-grid{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.secondary-grid{
+    width: 85%;
+    margin-bottom: 10px;
+}
+.btn-to-read{
+    margin-top: 10px;
+    width: 100%;
+}
+.tunes{
+    background-color: transparent !important;
+}
+
+@media only screen and (max-width: 600px){
+    .logo-img{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .search-box{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        width: 300px;
+        height: 35px;
+        margin-bottom: 30px;
+    }
+    .tunes{
+        margin: 0 auto;
+    }
+    .tunes-js{
+        margin-right: 30px !important;
+    }
+    .tune-button{
+        margin-left: 30px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .books{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .orders{
+        margin: 0 auto;
+        width: 70%;
+    }
+    .book{
+        margin-bottom: 50px !important;
+        width: 100%;
+    }
+}
